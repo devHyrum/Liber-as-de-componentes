@@ -19,7 +19,8 @@ export default function Cart() {
           <img src={iconDelete} alt="" />
         </IconButton>
       </Box>
-      <Button variant="contained" color="primary" fullWidth>Checkout</Button>
+      <Button variant="contained" fullWidth sx={{ flexGrow: 1, color: "black", backgroundColor: '#FF7D1B','&:hover': { backgroundColor: '#FFAC6A',},}}>Checkout
+              </Button>
     </Paper>
   );
 }

@@ -131,9 +131,9 @@ function App() {
                   <img src={plus} alt="" />
                 </IconButton>
               </Box>
-              <Button variant="contained" color="primary" bgcolor='#FF7D1B' startIcon={<AiOutlineShoppingCart />} sx={{ flexGrow: 1 }}>
-                Add to cart
+              <Button variant="contained" startIcon={<AiOutlineShoppingCart />} sx={{ flexGrow: 1, color: "black", backgroundColor: '#FF7D1B','&:hover': { backgroundColor: '#FFAC6A',},}}>Add to cart
               </Button>
+
             </Box>
           </Grid>
         </Grid>
